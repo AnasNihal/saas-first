@@ -33,7 +33,10 @@ if DEBUG:
                       '127.0.0.1',
                       'localhost', 
                       ]
-    
+    # Add any additional hosts you want to allow during development
+    ALLOWED_HOSTS += [
+        'your-custom-hostname.local',
+    ]
 
 # Application definition
 
@@ -44,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'visits',
 ]
 
 MIDDLEWARE = [
