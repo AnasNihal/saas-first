@@ -1,6 +1,8 @@
 #ignore vendor staticfiles
 src/staticfiles/vendors
 
+.env
+
 #ignore local staticfiles root
 local cdn
 local-cdn/
