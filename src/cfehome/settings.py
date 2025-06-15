@@ -99,7 +99,6 @@ CONN_MAX_AGE= config("CONN_MAX_AGE", cast=int,default=30)
 
 DATABASE_URL = config("DATABASE_URL", default=None)
 
-DATABASE_URL = config("DATABASE_URL", cast=str)
 
 
 
